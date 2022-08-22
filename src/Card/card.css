@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.Main {
+
+    width: 500px;
+    padding: 10px 0;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.Card {
+    width: 100%;
+    height: 100px;
+    padding: 0%;
+    display: flex;
+    margin: 5px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.Card .Rasm {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.Rasm img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.item {
+    width: 390px;
+    height: 100%;
+    align-items: end;
+}
+
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    font-family: monospace;
+}
+
+.row1 p:nth-child(2) {
+    width: 110px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+
+}
+
+.row2 {
+    width: 90%;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+
+.box1 {
+    margin: 0 10px;
+    line-height: 5px;
+    text-align: center;
+    padding: 3px 0;
+}

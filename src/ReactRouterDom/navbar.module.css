@@ -1,0 +1,13 @@
+
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+}

@@ -1,0 +1,16 @@
+.inc {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+}
+
+.din {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+}
+
+.main {
+    margin: auto;
+    text-align: center;
+}
