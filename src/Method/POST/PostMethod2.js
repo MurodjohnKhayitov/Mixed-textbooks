@@ -31,15 +31,17 @@ export default function PostMethod2() {
   const onDelete = (id) => {
     fetch(`${url}/${id}`, {
       method: "DELETE"
-    }).then((res) =>
-      setGetUser(
-        getUser.filter((item) => {
-          return item.id !== id;
-        })
-      )
-    ).catch(err=>{
-        console.log(err,"DeleteEror");
     })
+      .then((res) =>
+        setGetUser(
+          getUser.filter((item) => {
+            return item.id !== id;
+          })
+        )
+      )
+      .catch((err) => {
+        console.log(err, "DeleteEror");
+      });
   };
   return (
     <div style={{ margin: "auto" }}>
